@@ -1,0 +1,13 @@
+pip install dlib and pip install face_recognition might not work even with pip3 on windows.
+Official GitHub says it is supported on Linux and macOS and on windows it might work.
+Corresponding conda install is expected to work. It will install in its own environment.
+
+Note that here the installation will fail because pip fail to detect the dlib conda installed earlier
+Therefor run
+
+pip install --no-dependencies face_recognition this worked.
+
+Always update first,
+conda install numpy
+conda install scipy
+conda install dlib
