@@ -1,1 +1,1 @@
-Put all the registered users photos here.
+Put all the registered user's photo(s) here.
